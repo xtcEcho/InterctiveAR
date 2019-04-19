@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AdozpF//////AAABmV2+jey+6E55s7ym2raQLU5PvS99sGztBuGxz8mO0A2vKVnq2FQbs9gYxRxFR89Ulx45dnk7VHU2QfGUzJsSr/JkA5dtbf3qvBMObAj9cl/rpgVd/g+Ch3g1EBQbZID/R25TqbzQdauA8iDCeTDkESgeOAPiIkQo7eJDmd+XwQqYYL3E+Zv4MZeOzAZjDBEWjD7tykasdDqNUHjDtvfPnKxrssfsP5zHu3BcnMPCIe8OWhGREtkmXxccgEM5KNjr1hSP1KOqUnzdnvoeYAvs/D/ny2Z9960C2nhfT6dBLfunWSQUEXHUdEEOgNkZdwDnPR8io6t0AkdL/xdkqhCccAcVCIST1ejlMpeyZhPfv/i+
+    ufoLicenseKey: QVVJQUtSWC8vLy8vQUFBQUtJWHpqMm9GSGtsY21tMm5xVjhROHdZN2EzUm1CbzYrWW54ellHUGhrRFFFOG5SazJ2SDhtYnVhNko4ZDdDZ0MvNXo0SG5obkdQdnc5UVkvcjg1NnI4NlNQYjdNZ1RJNm9yL2ZCOTkwSnlGamZVb0tUTFIzU1RBS2oybUc1aktMbDJTMWkrTlJEVy9jNXE2RjhVZTdpb3hBT2Y1VEpUajNocGFocnAwTkhvYjd0UnBrY2RFWnZ6SlR1QVVaa281endxMHpGbzhYSk5zUXlGeVlnazV1VUc5cGJRSGFWMyt1bVkwRzcwS0kydVhlMVFGTzk2MjI4eFkrU3VMTnk2TGQ4M2xzbFNNR3A0dEtyK1FicjhLQjdRQkpMNzNnNzM5U1owUEpHVmtCMlluY2lGU1UxZTIwZUUxSVRGL2x2a2xyUFFXMklhU2Zwc0o0L2J0aFNFM0hZbEtoRUNVRUFiQkd1S243VFJ6TXBCdlI=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -3
+    maxSimultaneousImageTargets: 3
+    maxSimultaneousObjectTargets: 3
+    useDelayedLoadingObjectTargets: 0
+    cameraDirection: 0
+    mirrorVideoBackground: 0
+    version: 7.5.26
+    eulaAcceptedVersions: '{"Values":["7.5"]}'
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 0
+    stereoFramework: 0
+    seeThroughConfiguration: 0
+    viewerName: 
+    viewerManufacturer: 
+    useCustomViewer: 0
+    customViewer:
+      Version: 0
+      Name: 
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0
+      InterLensDistance: 0
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0
+      DistortionCoefficients: {x: 0, y: 0}
+      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
+      ContainsMagnet: 0
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    trackingMode: 1
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+    fusionMode: 7
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: Logitech Webcam C930e
+    flipHorizontally: 0
+    turnOffWebCam: 0
+    renderTextureLayer: 30
